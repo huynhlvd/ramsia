@@ -8,8 +8,8 @@ Reconstruction Algorithm with Multiple Side Information using Adaptive Weights (
 Please see the file LICENSE for the full text of the license.
 
     PUBLICATION: Huynh Van Luong, J. Seiler, A. Kaup, and S. Forchhammer, "Sparse Signal 
-	Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources," 
-	in IEEE Int. Conf. on Image Processing 2016 (ICIP 2016), Phoenix, Arizona, USA, Sep. 2016.
+		Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources," 
+		in IEEE Int. Conf. on Image Processing 2016 (ICIP 2016), Phoenix, Arizona, USA, Sep. 2016.
 
   **_Solving the _n-l1_ minimization problem:_**
   
@@ -21,7 +21,7 @@ Inputs:
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{z}_{j}\in&space;\mathbb{R}^{n}" title="\boldsymbol{y}_{t}\in \mathbb{R}^{m}" />: Multiple side information signals <br />
 
 Outputs:
-- <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{x}\in\mathbb{R}^{n}" title="\boldsymbol{x}_{t},\boldsymbol{v}_{t}\in\mathbb{R}^{n}" />: Estimates of foreground and background
+- <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{x}\in\mathbb{R}^{n}" title="\boldsymbol{x}_{t},\boldsymbol{v}_{t}\in\mathbb{R}^{n}" />: The recovered source
 
 **_Source code files:_**  
  - `ramsia.m`: The function for RAMSI
