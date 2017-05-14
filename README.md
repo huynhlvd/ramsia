@@ -5,7 +5,7 @@ Reconstruction Algorithm with Multiple Side Information using Adaptive Weights (
 	Implementations by Huynh Van Luong, Email: huynh.luong@fau.de,
 	Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.
 
-	Please see the file LICENSE for the full text of the license.
+Please see the file LICENSE for the full text of the license.
 
     PUBLICATION: Huynh Van Luong, J. Seiler, A. Kaup, and S. Forchhammer, "Sparse Signal 
 	Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources," 
@@ -13,7 +13,7 @@ Reconstruction Algorithm with Multiple Side Information using Adaptive Weights (
 
   **_Solving the _n-l1_ minimization problem:_**
   
-<img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\min_{\boldsymbol{x}}\Big\{H(\boldsymbol{x})=&space;\frac{1}{2}\|\mathbf{\Phi}\boldsymbol{x}-\boldsymbol{y}\|^{2}_{2}&space;&plus;&space;\lambda&space;\sum\limits_{j=0}^{J}\|\mathbf{W}_{j}(\boldsymbol{x}-\boldsymbol{z}_{j})\|_{1}\Big\}" title="\min_{\boldsymbol{x}}\Big\{H(\boldsymbol{x})= \frac{1}{2}\|\mathbf{\Phi}\boldsymbol{x}-\boldsymbol{y}\|^{2}_{2} + \lambda \sum\limits_{j=0}^{J}\|\mathbf{W}_{j}(\boldsymbol{x}-\boldsymbol{z}_{j})\|_{1}\Big\}"  /> (1)
+<img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\min_{\boldsymbol{x}}\Big\{H(\boldsymbol{x})=&space;\frac{1}{2}\|\mathbf{\Phi}\boldsymbol{x}-\boldsymbol{y}\|^{2}_{2}&space;&plus;&space;\lambda&space;\sum\limits_{j=0}^{J}\beta_j\|\mathbf{W}_{j}(\boldsymbol{x}-\boldsymbol{z}_{j})\|_{1}\Big\}" title="\min_{\boldsymbol{x}}\Big\{H(\boldsymbol{x})= \frac{1}{2}\|\mathbf{\Phi}\boldsymbol{x}-\boldsymbol{y}\|^{2}_{2} + \lambda \sum\limits_{j=0}^{J}\beta_j\|\mathbf{W}_{j}(\boldsymbol{x}-\boldsymbol{z}_{j})\|_{1}\Big\}" />
 
 Inputs:
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{y}\in&space;\mathbb{R}^{m}" title="\boldsymbol{y}_{t}\in \mathbb{R}^{m}" />: A vector of observations/data <br /> 
@@ -24,5 +24,5 @@ Outputs:
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{x}\in\mathbb{R}^{n}" title="\boldsymbol{x}_{t},\boldsymbol{v}_{t}\in\mathbb{R}^{n}" />: Estimates of foreground and background
 
 **_Source code files:_**  
- - `ramsi.m`: The function for RAMSI
- - `usageDemo_ramsi.m`: One demo to run RAMSI
+ - `ramsia.m`: The function for RAMSI
+ - `usageDemo_ramsia.m`: One demo to run RAMSI
