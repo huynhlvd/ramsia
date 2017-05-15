@@ -1,6 +1,8 @@
 function [x_hat] = ramsia(A, b, Zin)
 % Matlab code by Huynh Van Luong, Email: huynh.luong@fau.de
-% Jan. 15, 2016
+% Copyright (c) 2015, Huynh Van Luong, Email: huynh.luong@fau.de
+% Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.
+% All rights reserved.
 % 
 % RAMSIA minimizes a convex problem
 %   min {1/2||Ax - b||_2^2 + LAMBDA*sum(betaj*||Wj*(x - zj)||_1)}
@@ -17,6 +19,12 @@ function [x_hat] = ramsia(A, b, Zin)
 % OUTPUT:
 %   x_hat - n x 1 vector of recovered source 
 %
+%Please see the file LICENSE for the full text of the license.
+% 
+%     PUBLICATION: Huynh Van Luong, J. Seiler, A. Kaup, and S. Forchhammer, "Sparse Signal 
+% 		Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources," 
+% 		in IEEE Int. Conf. on Image Processing 2016 (ICIP 2016), Phoenix, Arizona, USA, Sep. 2016.
+
 %% Input optional parameters:
     t0 = tic;
 

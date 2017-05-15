@@ -5,12 +5,12 @@
 %% Initialization 
 % A  - m x n measurement matrix 
 n = 1000;
-m = 150;
+m = 300;
 
 A = randn(m,n);
 % Supports of ||x - zj||_0 = sj
 s0 = 128;
-sj = 100;
+sj = 256;
 s1 = sj; 
 s2 = sj;
 s3 = sj;
