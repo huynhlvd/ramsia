@@ -5,7 +5,7 @@ Reconstruction Algorithm with Multiple Side Information using Adaptive Weights (
 	Implementations by Huynh Van Luong, Email: huynh.luong@fau.de,
 	Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.
 
-Please see the file LICENSE for the full text of the license.
+`Please see` [LICENSE](https://github.com/huynhlvd/ramsia/blob/master/LICENSE.md) `for the full text of the license.`
 
     PUBLICATION: Huynh Van Luong, J. Seiler, A. Kaup, and S. Forchhammer, "Sparse Signal 
 		Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources," 
@@ -24,5 +24,5 @@ Outputs:
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{\hat{x}}\in\mathbb{R}^{n}" title="\boldsymbol{x}_{t},\boldsymbol{v}_{t}\in\mathbb{R}^{n}" />: The recovered source
 
 **_Source code files:_**  
- - `ramsia.m`: The function for RAMSI
- - `usageDemo_ramsia.m`: One demo to run RAMSI
+ - [ramsia.m](https://github.com/huynhlvd/ramsia/blob/master/ramsia.m): The function for RAMSI
+ - [usageDemo_ramsia.m](https://github.com/huynhlvd/ramsia/blob/master/usageDemo_ramsia.m): One demo to run RAMSI
