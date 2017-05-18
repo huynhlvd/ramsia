@@ -76,7 +76,7 @@ function [x_hat] = ramsia(A, b, Zin)
   
     f = 0.5*norm(b - A*xk)^2 + lambda_bar*sumNorm1(Wk, xk, Z); 
     xkm1 = xk;
-    epsi = 0.1;%1e-1;
+    epsi = 0.8;% defaut 1e-1;
     epsiBeta = 1e-20;
     uk = xk;
     Wkp1 = Wk;
