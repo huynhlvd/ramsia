@@ -5,12 +5,11 @@
 %% Initialization 
 % A  - m x n measurement matrix 
 n = 1000;
-m = 300;
-
+m = 130;
 A = randn(m,n);
 % Supports of ||x - zj||_0 = sj
 s0 = 128;
-sj = 256;
+sj = 64;
 s1 = sj; 
 s2 = sj;
 s3 = sj;
@@ -32,4 +31,6 @@ end
 % Input observation b with m measurements
 b = A*x;
 x_hat = ramsia(A, b, Z);
+er(i) = norm(x_hat - x,2)/(norm(x,2));
 fprintf('Recovered error: %4.8f \n', norm(x_hat - x,2)/(norm(x,2)));
+
