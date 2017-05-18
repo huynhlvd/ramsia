@@ -1,5 +1,5 @@
 # RAMSIA
-Reconstruction Algorithm with Multiple Side Information using Adaptive Weights (RAMSIA)
+**Reconstruction Algorithm with Multiple Side Information using Adaptive Weights (RAMSIA)**
 
 	Version 1.1, January 15, 2016
 	Implementations by Huynh Van Luong, Email: huynh.luong@fau.de,
