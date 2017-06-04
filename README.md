@@ -8,6 +8,7 @@
 `Please see` [LICENSE](https://github.com/huynhlvd/ramsia/blob/master/LICENSE.md) `for the full text of the license.`
 
 Please cite this publication: 
+
 `Huynh Van Luong, J. Seiler, A. Kaup, and S. Forchhammer, "`[Sparse Signal Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources](https://arxiv.org/abs/1605.06776)`," in IEEE Int. Conf. on Image Processing 2016 (ICIP 2016), Phoenix, Arizona, USA, Sep. 2016.`
 
   **_Solving the _n-l1_ minimization problem:_**
