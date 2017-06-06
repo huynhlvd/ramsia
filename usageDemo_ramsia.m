@@ -31,6 +31,6 @@ end
 % Input observation b with m measurements
 b = A*x;
 x_hat = ramsia(A, b, Z);
-er(i) = norm(x_hat - x,2)/(norm(x,2));
+
 fprintf('Recovered error: %4.8f \n', norm(x_hat - x,2)/(norm(x,2)));
 
