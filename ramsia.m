@@ -1,6 +1,6 @@
 function [x_hat] = ramsia(A, b, Zin)
 % Matlab code by Huynh Van Luong, Email: huynh.luong@fau.de
-% Copyright (c) 2015, Huynh Van Luong, Email: huynh.luong@fau.de
+% Copyright (c) 2016, Huynh Van Luong, Email: huynh.luong@fau.de
 % Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.
 % All rights reserved.
 % 
