@@ -12,9 +12,7 @@ Please cite this publication:
 `Huynh Van Luong, J. Seiler, A. Kaup, and S. Forchhammer, "`[Sparse Signal Reconstruction with Multiple Side Information using Adaptive Weights for Multiview Sources](https://arxiv.org/abs/1605.06776)`," in IEEE Int. Conf. on Image Processing 2016 (ICIP 2016), Phoenix, Arizona, USA, Sep. 2016.`
 
   **_Solving the _n-l1_ minimization problem:_**
-  
-  <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{a}{b}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{a}{b}" title="\frac{a}{b}" /></a>
-  
+
 <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\min_{\boldsymbol{x}}\Big\{H(\boldsymbol{x})=&space;\frac{1}{2}\|\mathbf{\Phi}\boldsymbol{x}-\boldsymbol{y}\|^{2}_{2}&space;&plus;&space;\lambda&space;\sum\limits_{j=0}^{J}\beta_j\|\mathbf{W}_{j}(\boldsymbol{x}-\boldsymbol{z}_{j})\|_{1}\Big\}" title="\min_{\boldsymbol{x}}\Big\{H(\boldsymbol{x})= \frac{1}{2}\|\mathbf{\Phi}\boldsymbol{x}-\boldsymbol{y}\|^{2}_{2} + \lambda \sum\limits_{j=0}^{J}\beta_j\|\mathbf{W}_{j}(\boldsymbol{x}-\boldsymbol{z}_{j})\|_{1}\Big\}" />
 
 Inputs:
